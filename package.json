@@ -1,0 +1,23 @@
+{
+  "name": "assignmentday3",
+  "version": "1.0.0",
+  "description": "assignmentDay3",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest"
+  },
+  "author": "reandy",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^29.5.4",
+    "express": "^4.18.2",
+    "mongodb-memory-server": "^8.15.1",
+    "mongoose": "^7.5.0",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "jest": "^29.6.4"
+  }
+}
